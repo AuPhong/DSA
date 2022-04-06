@@ -1,6 +1,6 @@
-import java.util.ArrayList;
+package Colection;
 
-public class DynamicArrayTest {
+public class  DynamicArrayTest {
     public static void main(String[] args) {
         DynamicArray dynamicArray = new DynamicArray(20);
         dynamicArray.add("A");

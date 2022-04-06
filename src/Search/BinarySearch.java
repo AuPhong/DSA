@@ -1,6 +1,10 @@
+package Search;
+
+import Colection.BinarySearchTree;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
-
+import java.util.Collections;
 
 
 public class BinarySearch {
@@ -16,15 +20,18 @@ public class BinarySearch {
 
     private static int binarySearch1(int[] array, int target) {
         int low = 0;
-        int high = array.length-1;
-        while (low<=high){
-            int middle = (high+low)/2;
+        int high = array.length - 1;
+        while (low <= high) {
+            int middle = (high + low) / 2;
             System.out.println(middle);
             int value = array[middle];
-            if (target>value) low = middle+1;
-            else if (target<value) high = middle-1;
+            if (target > value) low = middle + 1;
+            else if (target < value) high = middle - 1;
             else return middle;
         }
-return -1;
+        return -1;
     }
+
+
+
 }

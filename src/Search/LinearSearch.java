@@ -1,3 +1,5 @@
+package Search;
+
 public class LinearSearch {
 
     // Linear search - Iterate through a collection one element at a time

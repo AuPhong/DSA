@@ -1,3 +1,5 @@
+package Sort;
+
 public class SelectionSort {
     /* Selection Sort = search through an array and keep track of the minium value during
                         each iteration. At the end of each iteration, we swap variable.

@@ -1,3 +1,5 @@
+package Colection;
+
 import java.util.Stack;
 
 public class stack {
@@ -12,7 +14,7 @@ public class stack {
         // 1. undo/redo features in text editors (Ctrl+Z, Ctrl+Y)
         // 2. moving back/forward through browser history
         // 3. backtracking algorithms (file directories)
-        // 4. calling function (call stack)
+        // 4. calling function (call Colection.stack)
 
 
         Stack<String> stack = new Stack<String>();
@@ -23,22 +25,22 @@ public class stack {
         stack.push("Borderlands");
         stack.push("FFVII");
 
-        // return true if stack is empty
-        //System.out.println(stack.empty());
+        // return true if Colection.stack is empty
+        //System.out.println(Colection.stack.empty());
 
-        //remove elements from stack
-//        stack.pop();
+        //remove elements from Colection.stack
+//        Colection.stack.pop();
 
         //assign the top element by variable a and remove it
-        //String a = (stack.pop());
+        //String a = (Colection.stack.pop());
 
-        // display all the objs of stack
-        //System.out.println(stack);
+        // display all the objs of Colection.stack
+        //System.out.println(Colection.stack);
 
         // return the top element without removing it
         System.out.println(stack.peek());
 
-        // Search index of element from stack (very last element = 1)
+        // Search index of element from Colection.stack (very last element = 1)
         System.out.println(stack.search("Minecraft"));
         System.out.println(stack.search(stack.peek()));
 

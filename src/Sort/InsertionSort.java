@@ -1,3 +1,5 @@
+package Sort;
+
 public class InsertionSort {
     /* insertion sort = after comparing elements to the left
                         shift elements to the right to make

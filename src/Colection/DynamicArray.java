@@ -1,3 +1,5 @@
+package Colection;
+
 public class DynamicArray {
     int size;
     int capacity = 10;

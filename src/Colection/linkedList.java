@@ -1,10 +1,12 @@
+package Colection;
+
 import java.util.Collections;
 import java.util.LinkedList;
 
 public class linkedList {
     public static void main(String[] args) {
 
-        // use LinkedList as a stack:
+        // use LinkedList as a Colection.stack:
         LinkedList<String> data = new LinkedList<>();
         data.push("A");
         data.push("B");
